@@ -3,5 +3,29 @@
 // endbower
 
 body {
-	background-color: #000 !important;
+	background-color: #E0E0E0;
 }
+
+
+.section-intro {
+	background-color: #FFFFFF;
+	
+}
+
+
+
+.img-size-1 {
+	width: 200px;
+	height: 200px;
+}
+
+.img-intro {
+	background-image: url('../images/grad_photo1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
