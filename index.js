@@ -1,6 +1,10 @@
-var http = require('http');
+var app			   = express();
+
+app.listen(port);      							  // startup our app at http://localhost:8080         
+
+// shoutout to the user                     
+console.log('Magic happens on port ' + port);
 
 
-http.listen(9000, function(){
-  console.log('listening ');
-});
+// expose app           
+exports = module.exports = app;   
