@@ -7,26 +7,107 @@ body {
 }
 
 
-.section-intro {
-	background-color: #FFFFFF;
+.section {
 	width: 100%;
 	height: 100%;
 }
 
 
+.intro {
+	color: #FFFFFF;
+}
+
+
+.heading {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.subtext {
+	font-size: 18px;
+}
+
+
+
+.intro {
+	background-color: #F44336;
+	padding-top: 140px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+
+.overview {
+	background-color: #FFFFFF;
+	padding: 60px;
+}
+
+.container-bio {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.container-icon-down {
+	text-align: center;
+}
+
+.icon-down {
+	font-size: 92px;
+}
 
 .img-size-sm {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
+}
+
+.img-container {
+	padding: 20px;
+	display: block;
+	margin: auto;
 }
 
 .img-intro {
-	background-image: url('../images/grad_photo1.jpg');
+	background-image: url('../images/grad_photo2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: auto;
 }
 
 .img-circle {
 	border-radius: 50%;
+}
+
+
+/* ==========================================
+
+Mobile Screen Breakpoints
+
+============================================= */
+
+@media screen and (min-width : 500px) {      /*  X-small Devices */
+
+	.container-bio {
+		width: 400px;
+	}
+}
+
+@media screen and (min-width : 768px) {      /*  Small Devices  - smart phones */
+	.heading {
+		font-size: 72px;
+	}
+
+	.container-bio {
+		width: 500px;
+	}
+}
+
+@media screen and (min-width : 992px) {      /*  Medium Devices - desktops  */
+
+}
+
+@media screen and (min-width : 1200px) {      /*  Large displays  */
+
 }
 
