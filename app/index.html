@@ -33,14 +33,21 @@
     <![endif]-->
 
     <div class="navbar navbar-white">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand">Steven Natera</a>
-      </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Steven Natera</a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="">Overview</a></li>
+                <li><a href="">Projects</a></li>
+            </ul>
+        </div>
     </div>
       
     <div class="section intro">
@@ -52,7 +59,10 @@
       </div>
     </div>
 
-    <div class="section overview"> 
+    <div class="section overview">
+      <div class="container-section-title">
+        <span class="section-title-overview">OVERVIEW</span>
+      </div>
       <div class="container-bio">
         <span class="bio">My name is Steven and I'm a full-stack developer in love with all things development. I've built single page applications using AngularJS and have spent much of my time in the NodeJS environment. I have also developed Ruby on Rails applications. Questions? Contact me via email.</span>
       </div>
@@ -67,14 +77,16 @@
 
     <div class="section portfolio">
       <div class="container">
-
+        <div class="container-section-title">
+          <span class="section-title-projects">PROJECTS</span>
+        </div>
         <div class="row">
           <div class="col-sm-6">
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href=""><img class="img-size-cover" src="images/jastr.png"></a>
                 </div>
-                <div class="panel-footer">Jastr, Inc</div>
+                <div class="panel-footer">Jastr - Metric Platform</div>
             </div>
           </div>
           <div class="col-sm-6">
@@ -82,7 +94,7 @@
                 <div class="panel-body">
                     <a href=""><img class="img-size-cover" src="images/mpharma1.png"></a>
                 </div>
-                <div class="panel-footer">mPharma</div>
+                <div class="panel-footer">mPharma - Data Analytics Dashboard</div>
             </div>
           </div>
         </div>
@@ -92,7 +104,7 @@
                 <div class="panel-body">
                     <a href=""><img class="img-size-cover" src="images/wedding-app.png"></a>
                 </div>
-                <div class="panel-footer">mPharma</div>
+                <div class="panel-footer">Freelance - Wedding App</div>
             </div>
           </div>
         </div>
