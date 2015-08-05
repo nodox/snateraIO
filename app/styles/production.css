@@ -109,7 +109,9 @@ Mobile Screen Breakpoints
 ============================================= */
 
 @media screen and (min-width : 500px) {      /*  X-small Devices */
-
+	.heading {
+		font-size: 52px;
+	}
 	.container-bio {
 		width: 400px;
 	}
