@@ -5,9 +5,9 @@
     "modernizr": "~2.8.3",
     "jquery": "~2.1.4",
     "bootstrap": "~3.3.5",
-    "bootstrap-material-design": "~0.3.0"
-
-  }, 
+    "bootstrap-material-design": "~0.3.0",
+    "SidebarTransitions": "*"
+  },
   "overrides": {
     "bootstrap": {
       "main": [
@@ -22,6 +22,14 @@
         "dist/css/roboto.css",
         "dist/js/material.js",
         "dist/js/ripples.js"
+      ]
+    },
+    "SidebarTransitions": {
+      "main": [
+        "css/component.css",
+        "js/modernizr.custom.js",
+        "js/classie.js",
+        "js/sidebarEffects.js"
       ]
     }
   },
